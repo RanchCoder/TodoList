@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-medium: 24px;
+  --font-large: 2em;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  width: 60%;
+  height: auto;
+  /* border: 1px solid black; */
+  background: rgb(255, 255, 255);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  padding: 10px;
+}
+
+section .title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.title > h1 {
+  margin: 0;
+  padding: 0;
+  font-size: var(--font-large);
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 60%;
+
+  margin: 0 auto;
+}
+
+input:focus {
+  border: 1px solid rgb(224, 219, 219);
+}
+
+#addItem {
+  padding: 15px;
+  width: 90%;
+  border: 1px solid rgb(224, 219, 219);
+  font-size: var(--font-medium);
+}
+
+.submit {
+  padding: 20px;
+  border: none;
+}
+
+.addOrRemoveTodos {
+  width: 100%;
+}
+
+/* result */
+.result {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid rgb(224, 219, 219);
+  height: auto;
+  text-align: left;
+  align-items: center;
+}
+.result h3 {
+  color: rgb(145, 138, 138);
+}
+
+.result.checker {
+  width: 20px;
+  height: 20px;
+}
+
+
